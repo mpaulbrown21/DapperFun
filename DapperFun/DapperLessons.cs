@@ -282,8 +282,9 @@ namespace DapperFun.Lessons
 
         public static void Extra_DapperMapping_Performance()
         {
-            // The purpose of this method is to determine how fast it is
-            // for reading in 25,000 Phil Level Developers using Dapper. 
+            // This method is used for measuring dapper perfromance.
+            // Run the DapperPerformance console app to see how it does
+            // on one million rows!
 
             string sql = @"Select 
                         philLevelDeveloperId, -- 0
@@ -300,8 +301,9 @@ namespace DapperFun.Lessons
 
         public static void Data_Reader_Performance()
         {
-            // The purpose of this method is to determine how fast it is
-            // for reading in 25,000 Phil Level Developers using Data Reader.
+            // This method is used for measuring the data reader performance.
+            // Run the DataReaderPerformance console app to see how it does
+            // on one million rows!
 
             List<PhilLevelDeveloper> philLevelDevelopers = new List<PhilLevelDeveloper>();
 
