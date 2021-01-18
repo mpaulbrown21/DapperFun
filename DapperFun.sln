@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperPerformance", "Dapper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataReaderPerformance", "DataReaderPerformance\DataReaderPerformance.csproj", "{D572A5C2-B946-4559-90DD-730D056515A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCreator", "DataCreator\DataCreator.csproj", "{03E918B9-B9D0-4A42-B85C-1CEF094FEC2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataClearer", "DataClearer\DataClearer.csproj", "{D71AFA43-BE63-49BD-B68F-7BC81BE74A05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{D572A5C2-B946-4559-90DD-730D056515A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D572A5C2-B946-4559-90DD-730D056515A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D572A5C2-B946-4559-90DD-730D056515A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E918B9-B9D0-4A42-B85C-1CEF094FEC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E918B9-B9D0-4A42-B85C-1CEF094FEC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E918B9-B9D0-4A42-B85C-1CEF094FEC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E918B9-B9D0-4A42-B85C-1CEF094FEC2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71AFA43-BE63-49BD-B68F-7BC81BE74A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71AFA43-BE63-49BD-B68F-7BC81BE74A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71AFA43-BE63-49BD-B68F-7BC81BE74A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71AFA43-BE63-49BD-B68F-7BC81BE74A05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

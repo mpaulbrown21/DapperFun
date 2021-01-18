@@ -10,18 +10,6 @@ namespace DapperPerformance
         {
             // Dapper
 
-            DataGenerator.ResetLessonOneData();
-
-            DataGenerator.CreatePhilLevelDeveloperTable();
-
-            Console.WriteLine($"Beginning insertion of {DapperLessons.PerformanceTestRowInsertions} Phil Level Developers...");
-
-            var insertionBegin = DateTime.Now;
-
-            DataGenerator.InsertManyPhilLevelDevelopers(DapperLessons.PerformanceTestRowInsertions);
-
-            Console.WriteLine($"Insertion Finish, total time {(insertionBegin - DateTime.Now).TotalMilliseconds * -1} Milliseconds");
-
             Console.WriteLine("Beginning dapper mapping test...");
 
             var dapperMappingBeging = DateTime.Now;

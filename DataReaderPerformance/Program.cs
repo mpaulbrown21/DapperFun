@@ -8,21 +8,6 @@ namespace DataReaderPerformance
     {
         static void Main(string[] args)
         {
-            // Data Reader
-
-            DataGenerator.ResetLessonOneData();
-            
-            DataGenerator.CreatePhilLevelDeveloperTable();
-
-            Console.WriteLine($"Beginning insertion of {DapperLessons.PerformanceTestRowInsertions} Phil Level Developers...");
-
-            var insertionBegin = DateTime.Now;
-
-            DataGenerator.InsertManyPhilLevelDevelopers(DapperLessons.PerformanceTestRowInsertions);
-
-            Console.WriteLine($"Insertion Finish, total time {(insertionBegin - DateTime.Now).TotalMilliseconds * -1} Milliseconds");
-            // Performance Dapper
-
             Console.WriteLine("Beginning data reader test...");
 
             var dataReaderBeginning = DateTime.Now;

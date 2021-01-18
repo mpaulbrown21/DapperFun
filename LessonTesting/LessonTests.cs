@@ -98,7 +98,7 @@ namespace LessonTesting
         [TestMethod]
         public void Extra_BufferedQuery_BufferFalse()
         {
-            DataGenerator.InsertFourPhilLevelDevelopers();
+            DataGenerator.InsertFourPhilLevelDevelopers(); 
             DataGenerator.InsertFourPhilLevelDevelopers();
             DataGenerator.InsertFourPhilLevelDevelopers();
 
