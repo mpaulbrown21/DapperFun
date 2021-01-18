@@ -39,14 +39,14 @@ namespace DataReaderPerformance
             }
 
             float average = 0;
-            for (int i = 0; i < 10; i++)
+            for (int i = 1; i < 10; i++)
             {
                 average += totalTimes[i];
             }
 
-            average = average / 10;
+            average = average / 9;
 
-            Console.WriteLine($"Average time {average}");
+            Console.WriteLine($"Average time {average} (after cache)");
 
         }
     }
